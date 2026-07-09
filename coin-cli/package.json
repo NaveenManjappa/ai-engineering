@@ -1,0 +1,10 @@
+{
+  "name": "coin-cli",
+  "version": "1.0.0",
+  "description": "Fetch top 5 crypto prices from CoinGecko",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
