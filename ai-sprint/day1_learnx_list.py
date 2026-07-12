@@ -1,5 +1,6 @@
 # Learning about Python lists
 # A list stores ordered, mutable items.
+# Review this file later to remember list methods, slicing, and how copies behave.
 
 li = []
 other_li = [4, 5, 6]

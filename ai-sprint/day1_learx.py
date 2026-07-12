@@ -2,6 +2,7 @@
 """
 Multiline comments can be enclosed in triple quotes " " or ' and can span multiple lines.
 """
+# Review this file later to refresh basic arithmetic, boolean logic, and truthiness in Python.
 
 print(1 + 1)
 print(35 / 7)

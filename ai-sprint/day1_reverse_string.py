@@ -1,3 +1,5 @@
+# Two ways to reverse a string: using an iterator and using slicing.
+# This is a good place to review how Python handles sequences and iteration.
 def reverse_string(text):
     reversed_text = ""
     for t in reversed(text):
