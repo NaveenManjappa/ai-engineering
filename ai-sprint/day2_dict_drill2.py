@@ -1,3 +1,4 @@
+import sys
 input = {"a": 1, "b": 2, "c": 3.0}
 input2 = {}
 
@@ -32,3 +33,5 @@ def transform_dict_except(data, fn, transform_key=False):
 
 print(transform_dict_except(input, lambda x: x**2, False))
 print(transform_dict_except(input, lambda x: x**2, True))
+
+print(sys.path)

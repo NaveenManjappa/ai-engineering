@@ -1,0 +1,15 @@
+{
+  "student": {
+    "name": "ABCD",
+    "age": 21,
+    "courses": [
+      "Python",
+      "AI"
+    ],
+    "address": {
+      "city": "Bengaluru",
+      "zip": "560001"
+    }
+  },
+  "active": true
+}
