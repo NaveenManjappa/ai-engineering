@@ -1,5 +1,8 @@
 import time
 import functools
+import random
+from retry import Retry
+
 
 
 def retry(max_retry=3,exceptions=(ConnectionError)):
@@ -8,6 +11,7 @@ def retry(max_retry=3,exceptions=(ConnectionError)):
         def wrapper(*args, **kwargs):
             for i in range(max_retry):
                 try:
+                    random_noise = random.uniform(0,1)
                     result = func(*args, **kwargs)
                     return result
                 except (KeyError, ValueError):
@@ -16,7 +20,7 @@ def retry(max_retry=3,exceptions=(ConnectionError)):
                     if isinstance(e,exceptions):
                       if i == max_retry - 1:
                         raise
-                      time.sleep(2**i)
+                      time.sleep(2**i+random_noise)
                     else:
                         raise
 
@@ -28,13 +32,13 @@ def retry(max_retry=3,exceptions=(ConnectionError)):
 attempts = 0
 
 
-@retry(max_retry=3,exceptions=(ConnectionError))
+@Retry(max_retry=3,exceptions=(ConnectionError))
 def fetch_api_data(endpoint):
     global attempts
     attempts += 1
     print(f"Executing fetch_api_data for {endpoint}")
     if attempts < 3:
-        raise RuntimeError("Temporary 503 Service Unavailable")
+        raise ConnectionError("Temporary 503 Service Unavailable")
     return {"status": "success", "data": "LLM response"}
 
 
