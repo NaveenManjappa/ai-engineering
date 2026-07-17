@@ -1,0 +1,15 @@
+2026-07-16 22:17:21,245 - WARNING - Attempt 1 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:17:23,113 - WARNING - Attempt 2 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:19:17,883 - WARNING - Attempt 1 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:19:19,456 - WARNING - Attempt 2 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:19:34,397 - WARNING - Attempt 1 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:19:36,014 - WARNING - Attempt 2 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:20:06,451 - WARNING - Attempt 1 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:20:08,040 - WARNING - Attempt 2 failed with the error Temporary 503 Service Unavailable
+2026-07-16 22:20:10,105 - ERROR - Max retry attempts reached, Error Temporary 503 Service Unavailable
+2026-07-17 12:48:14,992 - WARNING - Attempt 1 failed with the error Temporary 503 Service Unavailable
+2026-07-17 12:48:16,447 - WARNING - Attempt 2 failed with the error Temporary 503 Service Unavailable
+2026-07-17 12:56:40,135 - WARNING - Attempt 1 failed with the error Temporary 503 Service Unavailable
+2026-07-17 12:56:41,445 - WARNING - Attempt 2 failed with the error Temporary 503 Service Unavailable
+2026-07-17 12:57:18,614 - WARNING - Attempt 1 failed with the error Temporary 503 Service Unavailable
+2026-07-17 12:57:20,488 - WARNING - Attempt 2 failed with the error Temporary 503 Service Unavailable
